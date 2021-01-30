@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100vh;
+  font-size: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul, ol, dl {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+body {
+  font-family: $oswald;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1172px;
+  width: 100%;
+}
