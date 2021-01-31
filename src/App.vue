@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <merge-home />
+    <merge-sign-in />
   </div>
 </template>
 
 <script>
-import MergeHome from '@/components/MergeHome/MergeHome.vue';
+import MergeSignIn from '@/components/MergeSignIn/MergeSignIn.vue';
 
 export default {
   name: 'App',
   components: {
-    MergeHome,
+    MergeSignIn,
   }
 }
 </script>

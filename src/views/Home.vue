@@ -1,15 +1,15 @@
 <template>
-  <merge-home />
+  <merge-sign-in />
 </template>
 
 <script>
-// @ is an alias to /src
-import MergeHome from '@/components/MergeHome/MergeHome.vue'
+
+import MergeSignIn from '@/components/MergeSignIn/MergeSignIn.vue'
 
 export default {
   name: 'Home',
   components: {
-    MergeHome,
+    MergeSignIn,
   }
 }
 </script>

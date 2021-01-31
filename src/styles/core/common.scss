@@ -24,7 +24,11 @@ p {
   margin: 0;
 }
 body {
-  font-family: $oswald;
+  font-family: $main-text;
+  @include flex(center, center);
+}
+#app {
+  width: 100vw;
 }
 .container {
   margin: 0 auto;
